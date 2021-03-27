@@ -1,0 +1,21 @@
+
+[
+    {"name": "C#", "icon": "csharp", "category": "tech"},
+    {"name": "Dotnet, Core & Framework", "icon": "dotnet", "category": "tech"},
+    {"name": "MVC5", "icon": "dotnet", "category": "tech"},
+    {"name": "Windows Services", "icon": "windows", "category": "tech"},
+    {"name": "Agile & Scrum", "icon": "management", "category": "leadership"},
+    {"name": "Recruitment", "icon": "management", "category": "leadership"},
+    {"name": "SQL", "icon": "sql", "category": "tech"},
+    {"name": "Domain Driven Design", "icon": "ddd", "category": "architecture"},
+    {"name": "Mentoring & Coaching", "icon": "management", "category": "leadership"},
+    {"name": "Android, Java & Kotlin", "icon": "android", "category": "tech"},
+    {"name": "SOLID & Functional Principles", "icon": "general", "category": "tech"},
+    {"name": "CI/CD & Application Monitoring", "icon": "devOps", "category": "tech"},
+    {"name": "Accelerate Metrics", "icon": "cog", "category": "leadership"},
+    {"name": "Vue", "icon": "vue", "category": "tech"},
+    {"name": "AngularJs & Angular", "icon": "angular", "category": "tech"},
+    {"name": "Html, Css, Js", "icon": "html", "category": "tech"},
+    {"name": "The Testing Pyramid & Associated Techs", "icon": "qa", "category": "tech"},
+    {"name": "Application Performance, Big O, Race Conditions", "icon": "general", "category": "tech"}
+]

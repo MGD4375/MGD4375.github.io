@@ -1,0 +1,25 @@
+[{
+        "company": "Schoolcomms",
+        "role": "Sofware Development Manager",
+        "startDate": "December-2020",
+        "endDate": "Present"
+    },
+    {
+        "company": "Schoolcomms",
+        "role": "Technical Lead",
+        "startDate": "May-2019",
+        "endDate": "December-2020"
+    },
+    {
+        "company": "Schoolcomms",
+        "role": "Software Developer",
+        "startDate": "August-2017",
+        "endDate": "May-2019"
+    },
+    {
+        "company": "Schoolcomms",
+        "role": "Junior Software Developer",
+        "startDate": "March-2016",
+        "endDate": "August-2017"
+    }
+]

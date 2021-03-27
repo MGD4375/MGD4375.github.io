@@ -1,0 +1,166 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" type="image/jpg" href="/favicon.ico" />
+    <meta charset="utf-8">
+
+    <title>Morgan Davies</title>
+    <meta name="description" content="Morgan Davies">
+
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <div class="grid">
+        <header class="layout-header">
+            <a class="nav-link" href="#about-me">
+                <button>
+                    <span class="">Morgan Davies</span>
+                </button>
+            </a>
+        </header>
+
+        <nav id="nav" class="sidebar-left layout-nav">
+
+            <a class="nav-link" href="#about-me">
+                <button class="menu-button" title="About Me">
+                    <i class="fa fa-smile-o" aria-hidden="true"></i>
+                </button>
+            </a>
+
+            <a class="nav-link" href="#skills">
+                <button class="menu-button" title="Skills">
+                    <i class="fa fa-code"></i>
+                </button>
+            </a>
+
+            <a class="nav-link" href="#experience">
+                <button class="menu-button" title="Experience">
+                    <i class="fa fa-building-o"></i>
+                </button>
+            </a>
+
+            <a class="nav-link" href="#projects">
+                <button class="menu-button" title="Projects">
+                    <i class="fa fa-archive"></i>
+                </button>
+            </a>
+
+            <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/morgan-davies-830a46113/">
+                <button class="menu-button" title="LinkedIn">
+                    <i class="fa fa-linkedin"></i>
+                </button>
+            </a>
+
+            <a class="nav-link" target="_blank" href="https://github.com/MGD4375">
+                <button class="menu-button" title="Github">
+                    <i class="fa fa-github"></i>
+                </button>
+            </a>
+
+        </nav>
+
+        <article id="app" class="app">
+            <div class="article-content">
+
+
+                <section class="profile-section" id="about-me">
+
+                    <h2 class="name">
+                        Morgan Davies
+                    </h2>
+                    <p>
+
+                    </p>
+
+                    <div class="center">
+                        <a class="nav-link" href="#skills">
+                            <button class="button">
+                                <i class="fa fa-arrow-down"></i>
+                                More
+                            </button>
+                        </a>
+                    </div>
+
+
+                </section>
+                <section class="profile-section skills" id="skills">
+
+                    <h2>Skills</h2>
+
+                    <div class="skills-list">
+                        <div class="skill" v-for="skill in skills">
+                            <span class="skill-name">{{skill.name}}</span>
+                            <img class="skill-icon" v-bind:src="'/img/' + skill.icon + '.png'" />
+                        </div>
+                    </div>
+
+                </section>
+                <section class="profile-section" id="experience">
+
+                    <h2>Experience</h2>
+                    <div class="role" v-for="role in roles">
+
+                        <h3>
+                            <div class="employment-duration">
+                                {{role.startDate}} - {{role.endDate }}
+                            </div>
+                            <span class="job-title">
+                                {{role.role}}
+                            </span>
+                            <span class="company">
+                                {{role.company}}
+                            </span>
+                        </h3>
+
+                    </div>
+
+
+                </section>
+                <section class="profile-section" id="projects">
+                    <h2>Projects</h2>
+
+                    <div class="projects">
+
+
+
+                        <div class="project">
+                            <h3>Cellular Automata</h3>
+                            <img class="project-image" src="img/cellular-automata.png" />
+                        </div>
+
+
+                        <div class="project">
+                            <h3>Morgan & Sophie</h3>
+                            <img class="project-image" src="img/m-n-s.png" />
+                        </div>
+
+                    </div>
+
+
+                </section>
+
+
+
+
+
+
+
+            </div>
+
+        </article>
+
+    </div>
+
+    </nav>
+
+    <script src="https://use.fontawesome.com/168c9f5eb0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
